@@ -1,1 +1,6 @@
 .env
+# Python Cache Files
+__pycache__/
+*.pyc
+*.pyo
+# Jupyter Notebook Checkpoints
