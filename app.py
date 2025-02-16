@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 from openai import OpenAI
-
+import re
 load_dotenv()
 
 api_key = os.getenv('AIMLAPI_KEY')
@@ -19,15 +19,20 @@ response = client.chat.completions.create(
     messages=[
         {
             "role": "system",
-            "content": "You are an AI assistant who knows everything.",
+            "content": "You are an AI teaching assistant...",
         },
         {
             "role": "user",
-            "content": "Tell me, why is the sky blue?"
+            "content": "What is AI? Explain it in detail with examples.",
         },
     ],
+    max_tokens=500,
+    temperature=0.7, 
+    top_p=0.9, 
+    # response_format="text"
 )
 
 message = response.choices[0].message.content
+clean_message = re.sub(r"<think>.*?</think>", "", message, flags=re.DOTALL).strip()
 
 print(f"Assistant: {message}")
