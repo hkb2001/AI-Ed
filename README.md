@@ -39,10 +39,19 @@ Teachmate AI is an **AI-driven teaching assistant** designed to support educator
    git clone https://github.com/your-username/TeachmateAI.git
    cd TeachmateAI
 
-## **🚀 Set Up Virtual Environment & Install Dependencies**  
+2. **Set Up Virtual Environment & Install Dependencies**  
    ```bash
    python -m venv env
    source env/bin/activate  # For Linux/macOS
    env\Scripts\activate     # For Windows
    pip install -r requirements.txt
+
+3. **Set Up Environment Variables**
+   Create a .env file in the project root and add:
+   ```bash
+   AIMLAPI_KEY=your_api_key_here
+   
+4. **Run the Application**
+   ```bash
+   python app.py
 
