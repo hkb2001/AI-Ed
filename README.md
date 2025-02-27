@@ -57,9 +57,11 @@ Teachmate AI is an **AI-driven teaching assistant** designed to support educator
 ---
 
 ## **🤝 Collaborators**
--👨‍💻 Hasnain Bhatti – Team Lead | Backend Developer
--👨‍💻 Ali Tariq – Supporting Developer | Software Engineer
--👥 Quidditch Seekers – Hackathon Team
+👨‍💻 Hasnain Bhatti – Team Lead | Backend Developer
+
+👨‍💻 Ali Tariq – Supporting Developer | Software Engineer
+
+👥 Quidditch Seekers – Hackathon Team
 
 ---
 
