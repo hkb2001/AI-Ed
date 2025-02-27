@@ -66,7 +66,10 @@ Teachmate AI is an **AI-driven teaching assistant** designed to support educator
 ---
 
 ## **📌 Future Improvements**
--🔹 Multilingual Support – AI-powered lessons in multiple languages.
--🔹 Personalized Learning Paths – Adaptive AI-driven lesson plans.
--🔹 Voice & Text-to-Speech Features – More accessibility for students.
--🔹 Mobile App Version – Expanding access to smartphones & tablets.
+🔹 Multilingual Support – AI-powered lessons in multiple languages.
+
+🔹 Personalized Learning Paths – Adaptive AI-driven lesson plans.
+
+🔹 Voice & Text-to-Speech Features – More accessibility for students.
+
+🔹 Mobile App Version – Expanding access to smartphones & tablets.
